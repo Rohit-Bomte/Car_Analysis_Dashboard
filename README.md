@@ -6,18 +6,24 @@ The Car Performance Analysis report provides an in-depth examination of car mode
 
 ## 2. Regional Performance Analysis
 
-Objective:
+### Objective:
 
 To compare the overall performance and value of cars across different regions of origin such as Asia, Europe, and the USA.
 
-Key Visualizations:
+### Key Visualizations:
 
 •	Bar Chart: Comparison of average Horsepower, MPG (City/Highway), and Weight by Region.
+
 •	Column Chart: Total and Average MSRP by Region.
+
 •	Pie Chart: Distribution of car count by region.
-Insights:
+
+### Insights:
+
 •	Asian cars tend to offer better fuel efficiency at lower prices.
+
 •	European cars often have higher horsepower and premium pricing.
+
 •	The USA region contributes the largest volume of car models.
 
 ✅ Drill-through Enabled: Users can click on any region to filter data down to relevant Makes and Types.
