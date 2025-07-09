@@ -1,12 +1,17 @@
 # Car_Analysis_Dashboard
-________________________________________
-1. Introduction
+
+## 1. Introduction
+
 The Car Performance Analysis report provides an in-depth examination of car models based on various performance and pricing parameters. This analysis helps users make informed decisions by exploring vehicle attributes such as engine size, horsepower, mileage, drivetrain, and MSRP. The report spans four analytical dimensions: Region, Type, Make, and Model, enabling multi-level drill-through to ultimately guide the user toward choosing the ideal car.
-________________________________________
-2. Regional Performance Analysis
+
+## 2. Regional Performance Analysis
+
 Objective:
+
 To compare the overall performance and value of cars across different regions of origin such as Asia, Europe, and the USA.
+
 Key Visualizations:
+
 •	Bar Chart: Comparison of average Horsepower, MPG (City/Highway), and Weight by Region.
 •	Column Chart: Total and Average MSRP by Region.
 •	Pie Chart: Distribution of car count by region.
@@ -14,8 +19,9 @@ Insights:
 •	Asian cars tend to offer better fuel efficiency at lower prices.
 •	European cars often have higher horsepower and premium pricing.
 •	The USA region contributes the largest volume of car models.
+
 ✅ Drill-through Enabled: Users can click on any region to filter data down to relevant Makes and Types.
-________________________________________
+
 3. Car Type Performance Analysis
 Objective:
 To evaluate car performance based on their type (SUV, Sedan, Coupe, etc.), enabling users to choose based on usage preference and budget.
@@ -28,7 +34,7 @@ Insights:
 •	Sedans and Coupes provide a good mix of performance and affordability.
 •	Certain types are better suited for city driving, while others excel off-road.
 ✅ Drill-through Enabled: Clicking on a car type filters the models belonging to that type, narrowing user preferences.
-________________________________________
+
 4. Brand (Make) Performance Analysis
 Objective:
 To assess how different car brands perform in terms of power, price, efficiency, and design characteristics.
@@ -42,7 +48,7 @@ Insights:
 •	Luxury brands (like BMW, Audi) offer high performance with higher MSRP.
 •	Drivetrain options vary across brands—some specialize in AWD or RWD systems.
 ✅ Drill-through Enabled: Clicking on a Make leads to model-level analysis for deeper insight.
-________________________________________
+
 5. Model-Level Decision Page
 Objective:
 To provide a detailed, comparative view of individual car models to help users finalize their choice based on their preferences.
@@ -59,7 +65,7 @@ o	🚐 Best Comfort: MAX(Wheelbase) and MAX(Weight)
 Insights:
 •	Drill-through filters allow users to dynamically adjust preferences (budget, power, efficiency) and shortlist the most suitable models.
 •	Models offering the best trade-offs across multiple dimensions are highlighted clearly, helping users make a confident choice.
-________________________________________
+
 6. Conclusion
 This analysis offers a 360-degree view of car performance across regions, types, brands, and models. By leveraging drill-through capabilities, users can seamlessly move from broad-level comparisons to specific model evaluations. The KPI cards, composite visualizations, and interactivity are designed to support real-world decisions like:
 •	“Which car offers the best mileage under ₹20 lakh?”
